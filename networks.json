@@ -1,0 +1,8 @@
+{
+  "mainnet": {
+    "ConfiguratorProxy": {
+      "address": "0xdB7EdFa090061D9367CbEAF6bE16ECbDE596676C",
+      "startBlock": 15331590
+    }
+  }
+}
