@@ -1,5 +1,5 @@
 # Compound v3 Subgraph
-# Subgraph for CometDeployed Event
+# Subgraph for collecting Comet data used in APR calculation
 
 This repository contains a Subgraph that tracks the CometDeployed event and extracts important data such as:  
 **utilization** - utilization factor.  
