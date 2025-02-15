@@ -1,0 +1,7 @@
+type Comet @entity(immutable: false) {
+  id: Bytes! # address
+  utilization: BigInt!
+  borrowRate: BigInt!
+  supplyRate: BigInt!
+  updatedAt: BigInt!
+}
