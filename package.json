@@ -1,18 +1,24 @@
 {
-  "name": "ethereum-mainnet---weth-base-test",
+  "name": "compound-cometdeployed-ethereum",
   "license": "UNLICENSED",
   "scripts": {
+    "clean": "rimraf build generated",
+    "rebuild": "rimraf build generated && graph codegen && graph build",
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ ethereum-mainnet---weth-base-test",
-    "create-local": "graph create --node http://localhost:8020/ ethereum-mainnet---weth-base-test",
-    "remove-local": "graph remove --node http://localhost:8020/ ethereum-mainnet---weth-base-test",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 ethereum-mainnet---weth-base-test",
+    "format": "prettier --write \"src/**/*.ts\" ",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ compound-cometdeployed-ethereum",
+    "create-local": "graph create --node http://localhost:8020/ compound-cometdeployed-ethereum",
+    "remove-local": "graph remove --node http://localhost:8020/ compound-cometdeployed-ethereum",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 compound-cometdeployed-ethereum",
     "test": "graph test"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.95.0",
     "@graphprotocol/graph-ts": "0.36.0"
   },
-  "devDependencies": { "matchstick-as": "0.6.0" }
+  "devDependencies": {
+    "matchstick-as": "0.6.0",
+    "rimraf": "^6.0.1"
+  }
 }

@@ -8,8 +8,8 @@ import {
 } from "matchstick-as/assembly/index"
 import { Address, BigInt } from "@graphprotocol/graph-ts"
 import { AddAsset } from "../generated/schema"
-import { AddAsset as AddAssetEvent } from "../generated/ConfiguratorProxy/ConfiguratorProxy"
-import { handleAddAsset } from "../src/configurator-proxy"
+import { AddAsset as AddAssetEvent } from "../generated/Configurator/Configurator"
+import { handleAddAsset } from "../src/configurator"
 import { createAddAssetEvent } from "./configurator-proxy-utils"
 
 // Tests structure (matchstick-as >=0.5.0)
