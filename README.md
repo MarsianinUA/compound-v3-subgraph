@@ -1,4 +1,4 @@
-# compound-cometdeployed-ethereum
+# Compound v3 Subgraph
 # Subgraph for CometDeployed Event
 
 This repository contains a Subgraph that tracks the CometDeployed event and extracts important data such as:  

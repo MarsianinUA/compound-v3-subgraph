@@ -1,5 +1,5 @@
 {
-  "name": "compound-cometdeployed-ethereum",
+  "name": "compound-v3-subgraph",
   "license": "UNLICENSED",
   "scripts": {
     "clean": "rimraf build generated",
@@ -7,10 +7,10 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "format": "prettier --write \"src/**/*.ts\" ",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ compound-cometdeployed-ethereum",
-    "create-local": "graph create --node http://localhost:8020/ compound-cometdeployed-ethereum",
-    "remove-local": "graph remove --node http://localhost:8020/ compound-cometdeployed-ethereum",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 compound-cometdeployed-ethereum",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ compound-v3-subgraph",
+    "create-local": "graph create --node http://localhost:8020/ compound-v3-subgraph",
+    "remove-local": "graph remove --node http://localhost:8020/ compound-v3-subgraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 compound-v3-subgraph",
     "test": "graph test"
   },
   "dependencies": {
